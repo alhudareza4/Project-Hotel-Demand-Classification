@@ -163,19 +163,19 @@ Model kita ini memiliki ketepatan prediksi Konsumen yang melakukan pembatalan se
 Bila seandainya rata-rata biaya hotel permalam diportugal itu 75$ (berdasarkan sumber dari https://championtraveler.com/price/cost-of-a-trip-to-portugal/),
 dan andaikan jumlah pesanan hotel kita miliki untuk suatu kurun waktu sebanyak 200 orang (dimana andaikan 20 orang melakukan pembatalan, dan 180 orang lagi tidak melakukan pembatalan), maka hitungannya kurang lebih akan seperti ini :
 
-Tanpa Model (semua kandidat kita check dan tawarkan) :
-- Total Biaya => 200 x 75 USD = 15000 USD
+Tanpa Model :
+- Total Omset => 200 x 75 USD = 15000 USD
 - Total Konsumen yang melakukan pembatalan => 20 orang 
 - Total Konsumen yang tidak melakukan pembatalan => 180 orang 
 - Biaya yang terbuang => 20 x 75 USD = 1500 USD
 - Jumlah opportunity lost => 1500 USD
 
-Dengan Model () :
-- Potens Penghematan => (16 x 75 USD) + (4 x 75 USD) = 1200 USD + 300 USD = 1500 USD
+Dengan Model :
+- Potensi Penghematan => (16 x 75 USD) + (4 x 75 USD) = 1200 USD + 300 USD = 1500 USD
 - Total konsumen yang melakukan pembatalan => 16 orang (karena recall 1/yg tertarik itu 79%)
 - Total konsumen yang tidak melakukan pembatalan => 24 orang (karena recall 1/yg tertarik itu 79%)
 - Biaya yang terbuang => 4 x 75 USD = 300 USD (berdasarkan recall 0/))
-- Jumlah penghematan => 1500 x 300 USD = 1200 USD 
+- Opportunity yang didapat => 1500 - 300 USD = 1200 USD 
 
 Berdasarkan contoh hitungan tersebut, terlihat bahwa dengan menggunakan model kita, maka perusahaan tersebut akan menghemat biaya yang cukup besar tanpa mengorbankan tingkat kepercayaan konsumen.
 
